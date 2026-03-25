@@ -5,7 +5,7 @@ import PageTransition from '../components/PageTransition'
 import Globe from '../components/Globe'
 import Marquee from '../components/Marquee'
 import styles from './Home.module.css'
-
+import SEO from '../components/SEO'
 import truckHero   from '../assets/truck_hero.jpeg'
 import truckRoad1  from '../assets/truck_road1.png'
 import truckRoad2  from '../assets/truck_road2.png'

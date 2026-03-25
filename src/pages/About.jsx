@@ -15,6 +15,7 @@ import ssd        from '../assets/ssd.png'
 import port3      from '../assets/port3.png'
 import truckHero  from '../assets/truck_hero.jpeg'
 import truckPort  from '../assets/truck_port.jpeg'
+import SEO from '../components/SEO'
 
 const VALUES = [
   { icon:'⏱', title:'Timeliness',           desc:'We understand that time is money. Every shipment is managed with urgency and accuracy.' },

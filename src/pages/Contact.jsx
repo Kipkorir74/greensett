@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser'
 import { trackEvent } from '../analytics'
 import PageTransition from '../components/PageTransition'
 import styles from './Contact.module.css'
+import SEO from '../components/SEO'
 
 const SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID

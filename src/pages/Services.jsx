@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import PageTransition from '../components/PageTransition'
 import styles from './Services.module.css'
-
+import SEO from '../components/SEO'
 import truckRoad2 from '../assets/truck_road2.png'
 import port1      from '../assets/port1.png'
 import truckFront from '../assets/truck_front.jpeg'
