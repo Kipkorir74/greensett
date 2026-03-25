@@ -7,12 +7,17 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
+import { initGA, trackPageView } from './analytics'
 
-// Scrolls to top on every route change
+// Initialize GA once on app load
+initGA()
+
 function ScrollToTop() {
   const { pathname } = useLocation()
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' })
+    // Track every page view automatically
+    trackPageView(pathname)
   }, [pathname])
   return null
 }

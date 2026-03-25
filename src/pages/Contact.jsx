@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import emailjs from '@emailjs/browser'
+import { trackEvent } from '../analytics'
 import PageTransition from '../components/PageTransition'
 import styles from './Contact.module.css'
 
@@ -62,6 +63,8 @@ export default function Contact() {
     try {
       await emailjs.send(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY)
       setSubmitted(true)
+      // Track as a conversion in Google Analytics
+      trackEvent('Contact', 'form_submission', form.subject)
     } catch (err) {
       console.error('EmailJS error:', err)
       setSendError('Something went wrong. Please try again or email us directly at info@greensett.com')
