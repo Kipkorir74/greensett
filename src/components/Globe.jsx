@@ -9,7 +9,9 @@ const CITIES = [
   { name: 'Kigali',        lat: -1.94,  lon: 30.06, hub: false },
   { name: 'Goma',          lat: -1.68,  lon: 29.23, hub: false },
   { name: 'Juba',          lat:  4.86,  lon: 31.57, hub: false },
-  { name: 'Addis Ababa',   lat:  9.03,  lon: 38.74, hub: false },
+  { name: 'Butembo',       lat:  0.12,  lon: 29.29, hub: false },
+  { name: 'Beni',          lat:  0.49,  lon: 29.46, hub: false },
+  { name: 'Mogadishu',     lat:  2.03,  lon: 45.33, hub: false },
 ]
 
 const ROUTES = [
@@ -18,6 +20,9 @@ const ROUTES = [
   { from: 'Nairobi',   to: 'Kampala'       },
   { from: 'Nairobi',   to: 'Kigali'        },
   { from: 'Nairobi',   to: 'Addis Ababa'   },
+  { from: 'Mombasa',   to: 'Butembo'       },
+  { from: 'Mombasa',   to: 'Mogadishu'     },
+  { from: 'Mombasa',   to: 'Beni'          },
   { from: 'Mombasa',   to: 'Dar es Salaam' },
   { from: 'Kampala',   to: 'Juba'          },
   { from: 'Kigali',    to: 'Goma'          },
