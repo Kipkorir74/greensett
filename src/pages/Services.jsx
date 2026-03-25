@@ -88,6 +88,12 @@ export default function Services() {
 
   return (
     <PageTransition>
+      <SEO
+          title="Our Services"
+          description="Greensett Logistics offers freight forwarding, customs clearance, inland transport, warehousing and 24/7 client support across Kenya, Tanzania, Uganda, Rwanda and beyond."
+          keywords="freight forwarding Kenya, customs clearance Kenya, inland transport East Africa, warehousing Nairobi, warehousing Mombasa, last mile delivery Kenya, FCL LCL shipping Kenya, bonded warehouse Kenya, cargo transport Uganda Rwanda, logistics services Tanzania"
+          url="https://greensett.com/services"
+      />
       <div className={styles.page}>
 
         {/* ── HEADER ── */}

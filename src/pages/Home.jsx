@@ -129,7 +129,16 @@ export default function Home() {
   const contentOpacity = useTransform(scrollYProgress, [0, 0.75], [1, 0])
 
   return (
+    
     <PageTransition>
+      <SEO
+        title="Home"
+          description="Greensett Logistics delivers reliable end-to-end logistics solutions across Eastern 
+                        and Central Africa. Freight forwarding, customs clearance, transport and warehousing 
+                        from Mombasa and Nairobi."
+          keywords =  "logistics Kenya, freight forwarding Kenya, customs clearance Mombasa, transport East Africa, warehousing Nairobi, cargo shipping Kenya, logistics company Nairobi, freight forwarder Mombasa, supply chain East Africa, inland transport Kenya"
+          url="https://greensett.com"
+/>
       <div className={styles.page}>
 
         {/* ════════════════ HERO ════════════════ */}

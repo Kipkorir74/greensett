@@ -44,6 +44,12 @@ export default function About() {
 
   return (
     <PageTransition>
+      <SEO
+        title="About Us"
+        description="Greensett Logistics Limited is a regional logistics partner built on timeliness and trust. Learn about our purpose, values, and on-the-ground expertise across Eastern and Central Africa."
+        keywords="about Greensett Logistics, logistics company Kenya, East Africa logistics partner, freight company Nairobi, reliable logistics Kenya, logistics values, supply chain Africa"
+        url="https://greensett.com/about"
+/>
       <div className={styles.page}>
 
         {/* ── PARALLAX BANNER ── */}

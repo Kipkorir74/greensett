@@ -75,6 +75,12 @@ export default function Contact() {
 
   return (
     <PageTransition>
+      <SEO
+          title="Contact Us"
+          description="Contact Greensett Logistics for freight forwarding, customs clearance and transport solutions across East Africa. Offices in Nairobi and Mombasa. Call +254 795 692 588."
+          keywords="contact Greensett Logistics, logistics quote Kenya, freight quote Nairobi, Mombasa logistics office, cargo enquiry Kenya, shipping quote East Africa"
+          url="https://greensett.com/contact"
+/>
       <div className={styles.page}>
 
         {/* ── HEADER ── */}
