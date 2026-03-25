@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/$(whoami)/public_html/greensett.com/graham.kipkorir
     - /bin/cp -r dist/* $DEPLOYPATH
 
-/home/$(whoami)/public_html/
+# /home/$(whoami)/public_html/

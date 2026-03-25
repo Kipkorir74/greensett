@@ -31,10 +31,10 @@ const ROUTES = [
 const cityMap = Object.fromEntries(CITIES.map(c => [c.name, c]))
 
 const ARCS = ROUTES.map(r => ({
-  startLat:  cityMap[r.from].lat,
-  startLng:  cityMap[r.from].lon,
-  endLat:    cityMap[r.to].lat,
-  endLng:    cityMap[r.to].lon,
+  startLat:  cityMap[r.from]?.lat,
+  startLng:  cityMap[r.from]?.lon,
+  endLat:    cityMap[r.to]?.lat,
+  endLng:    cityMap[r.to]?.lon,
   color: r.from === 'Nairobi' && r.to === 'Mombasa'
     ? ['#ffffff', '#ffffff']
     : ['#6fe898', '#4cb876'],

@@ -146,7 +146,7 @@ export default function Home() {
             className={styles.heroContent}
             style={{ y: contentY, opacity: contentOpacity }}
           >
-            <motion.div
+            {/* <motion.div
               className={styles.heroTag}
               initial={{ opacity: 0, x: -24 }}
               animate={{ opacity: 1, x: 0 }}
@@ -154,7 +154,7 @@ export default function Home() {
             >
               <span className={styles.tagDot} />
               Home of Logistics Solutions
-            </motion.div>
+            </motion.div> */}
 
             <h1 className={styles.h1}>
               {[
